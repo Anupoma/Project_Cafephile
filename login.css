@@ -1,0 +1,52 @@
+body{
+    margin: 80px 30px;
+    padding: auto;
+    background-image: url(./R.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+table{ 
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border:solid black;
+}
+input[type=text] {
+    width: 83%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    background-color: rgba(255, 255, 255, 0.719);
+    box-sizing: border-box;
+    border-radius: 5px ;
+    border: none;
+}
+input[type=password] {
+    width: 83%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    background-color: rgba(255, 255, 255, 0.719);
+    box-sizing: border-box;
+    border-radius: 5px ;
+    border: none;
+}
+input[type=date]{
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+#sub{
+    background-color: brown;
+    color: white;
+    margin:7px 35px;
+    padding: 4px 4px;
+    float: right;
+    border: none;
+    border-radius: 5px;   
+
+}
+#sub:hover{
+    color: violet;
+}
